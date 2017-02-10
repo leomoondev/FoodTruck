@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8BF87F6E1CDB2B21001943DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F6D1CDB2B21001943DE /* main.m */; };
 		8BF87F761CDB2B34001943DE /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F751CDB2B34001943DE /* FoodTruck.m */; };
+		DA357CD31E4D7EBC00FC454F /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = DA357CD21E4D7EBC00FC454F /* Cook.m */; };
+		DA357CD61E4DA03500FC454F /* AnotherCook.m in Sources */ = {isa = PBXBuildFile; fileRef = DA357CD51E4DA03500FC454F /* AnotherCook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		8BF87F6D1CDB2B21001943DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BF87F741CDB2B34001943DE /* FoodTruck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
 		8BF87F751CDB2B34001943DE /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		DA357CD11E4D7EBC00FC454F /* Cook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		DA357CD21E4D7EBC00FC454F /* Cook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		DA357CD41E4DA03500FC454F /* AnotherCook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherCook.h; sourceTree = "<group>"; };
+		DA357CD51E4DA03500FC454F /* AnotherCook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherCook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				8BF87F6D1CDB2B21001943DE /* main.m */,
 				8BF87F741CDB2B34001943DE /* FoodTruck.h */,
 				8BF87F751CDB2B34001943DE /* FoodTruck.m */,
+				DA357CD11E4D7EBC00FC454F /* Cook.h */,
+				DA357CD21E4D7EBC00FC454F /* Cook.m */,
+				DA357CD41E4DA03500FC454F /* AnotherCook.h */,
+				DA357CD51E4DA03500FC454F /* AnotherCook.m */,
 			);
 			path = Foodtruck;
 			sourceTree = "<group>";
@@ -124,7 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BF87F6E1CDB2B21001943DE /* main.m in Sources */,
+				DA357CD61E4DA03500FC454F /* AnotherCook.m in Sources */,
 				8BF87F761CDB2B34001943DE /* FoodTruck.m in Sources */,
+				DA357CD31E4D7EBC00FC454F /* Cook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +257,7 @@
 				8BF87F731CDB2B21001943DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
