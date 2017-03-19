@@ -26,7 +26,6 @@
     return self;
 }
 
-
 -(void)serve:(int)orders {
     
     double price = [self.delegate foodTruck:self priceForFood:self.foodType];

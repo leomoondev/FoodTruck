@@ -12,7 +12,6 @@
 
 -(double)foodTruck:(FoodTruck *)truck priceForFood:(NSString *)food{
     
-    
     if ([food isEqualToString:@"bao"]) {
         return 5.95;
     }
